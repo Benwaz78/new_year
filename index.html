@@ -3,40 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Home</title>
-	<script>
-		document.write("Hello world");
-	</script>
+	<style type="text/css">
+		
+		.wrapper{
+			display: flex;
+			min-height: 100vh;
+		}
+
+		.content{
+			background: green;
+			flex: 3;
+		}
+
+		aside{
+			background: red;
+			flex: 1;
+		}
+	</style>
+	
 </head>
 <body>
 	
-	<table style="margin-bottom:30px">
-		<tr>
-			<th>LAGOS</th>
-			<td>ABUJA</td>
-			<td>PORT HARCOURT</td>
-			<td>KANO</td>
-		</tr>
-		<tr>
-			<td>Feb. 18 – 22, Oct. 21 – 25</td>
-			<td>Feb. 11 – 15, Aug. 19 – 23</td>
-			<td>Feb. 4 – 8, July 1 – 5</td>
-			<td>Feb. 11 – 15, Aug. 26 – 30</td>
-		</tr>
-	</table>
-	<table style="margin-bottom:30px">
-		<tr>
-			<th>LAGOS</th>
-			<td>ABUJA</td>
-			<td>PORT HARCOURT</td>
-			<td>KANO</td>
-		</tr>
-		<tr>
-			<td>Feb. 18- 22, Oct. 21-25</td>
-			<td>Feb. 11 – 15, Aug. 19 -23</td>
-			<td>Feb. 4 -8, July. 1 -5</td>
-			<td>Feb. 11- 15, Aug. 19 -23</td>
-		</tr>
-	</table>
+	<div class="wrapper">
+		<div class="content">
+			<h2>Heading</h2>
+		</div>
+		<aside>
+			<h3>Sidebar</h3>
+		</aside>
+	</div>
+	
 	
 </body>
 </html>
