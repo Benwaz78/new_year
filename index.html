@@ -5,7 +5,11 @@
 	<title>Home</title>
 	<style type="text/css">
 		
-		.wrapper{
+		.header{
+			height: 50px;
+			background: blue;
+		}
+		.main-content{
 			display: flex;
 			min-height: 100vh;
 		}
@@ -25,12 +29,15 @@
 <body>
 	
 	<div class="wrapper">
-		<div class="content">
-			<h2>Heading</h2>
+		<div class="header"></div>
+		<div class="main-content">
+			<div class="content">
+				<h2>Heading</h2>
+			</div>
+			<aside>
+				<h3>Sidebar</h3>
+			</aside>
 		</div>
-		<aside>
-			<h3>Sidebar</h3>
-		</aside>
 	</div>
 	
 	
